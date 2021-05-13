@@ -37,7 +37,7 @@ export default class Workshops extends Component {
         const workshopImgs = [samir, nikita, amal, salman]
         return (
             <div>
-                <div className="workshops-speaker-container " id="workshops">
+                <div className="workshops-speaker-container" id="workshops">
                     <div>
                         <BackgroundAnimation />
                     </div>

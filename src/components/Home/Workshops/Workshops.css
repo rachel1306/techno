@@ -23,7 +23,10 @@
     line-height: 67px;
     text-transform: uppercase;
     color: white;
+    z-index: 3;
     position: relative;
+    margin-bottom: 60px;
+    white-space: nowrap;
 }
 #workshops-angel-connect-logo{
     width: 30%;
@@ -301,5 +304,12 @@ bottom: 10px;
     }
     .workshops-container-2{
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .section-heading-workshops{
+        font-size: 30px;
+        text-align: center;
     }
 }
